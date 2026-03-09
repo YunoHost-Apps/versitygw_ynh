@@ -25,7 +25,7 @@ email_smtp_port=587
 #=================================================
 ynh_script_progression "Adding $app's configuration..."
 
-ynh_config_add --template=".env" --destination="/etc/$app/.env"
+ynh_config_add --template=" versitygw.conf" --destination="/etc/$app.d/versitygw.conf"
 
 
 #=================================================
