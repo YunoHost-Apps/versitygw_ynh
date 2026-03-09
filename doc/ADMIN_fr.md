@@ -1,3 +1,3 @@
-`__APP__` ne peux pas être déplacé sur un chemin (par ex.: domain.tld/**papra**)  
-Le répertoire `__DATA_DIR__` ne fait pas partie des éléments sauvegardés par défaut lorsqu'une sauvegarde est lancée.
-
+`__APP__` cannot be installed or moved to a path.  
+Key ID : __ADMIN_KEY__  
+Secret Key : __ADMIN_SECRET__  
