@@ -68,6 +68,4 @@ ram.runtime = "50M"
     [resources.ports.ui]
 
     [resources.apt]
-    [resources.nodejs]
-    version = "24"
-    
+
