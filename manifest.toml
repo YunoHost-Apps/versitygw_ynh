@@ -57,7 +57,7 @@ ram.runtime = "50M"
 	allow_email = true
     
     [resources.install_dir]
-
+    subdirs = ["datadir", "versioning"]
     [resources.data_dir]
 
     [resources.permissions]
