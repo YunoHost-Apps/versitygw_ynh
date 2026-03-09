@@ -10,10 +10,10 @@ AssertPathExists=__INSTALL_DIR__/__APP__.d/__APP__.conf
 Type=simple
 User=__APP__
 Group=__APP__
-WorkingDirectory=__INSTALL_DIR__/__APP__
+WorkingDirectory=__INSTALL_DIR__
 EnvironmentFile=__INSTALL_DIR__/__APP__.d/__APP__.conf
 
-ExecStart=/etc/__APP__/./versitygw "$VGW_BACKEND" "$VGW_BACKEND_ARG"
+ExecStart=__INSTALL_DIR__/./versitygw "$VGW_BACKEND" "$VGW_BACKEND_ARG"
 StandardOutput=append:/var/log/__APP__/__APP__.log
 StandardError=inherit
 SyslogIdentifier=versitygw-%i
