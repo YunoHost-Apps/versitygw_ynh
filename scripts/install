@@ -27,7 +27,7 @@ ynh_script_progression "Adding $app's configuration..."
 
 ynh_setup_source --dest_dir="$install_dir"
 mkdir "$install_dir/$app.d"
-ynh_config_add --template="versitygw.conf" --destination="$install_dir/$app.d/$app.conf"
+ynh_config_add --template="gateway.conf" --destination="$install_dir/$app.d/$app.conf"
 
 #=================================================
 # SYSTEM CONFIGURATION
