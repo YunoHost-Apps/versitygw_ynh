@@ -27,7 +27,7 @@ ynh_script_progression "Adding $app's configuration..."
 
 ynh_setup_source --dest_dir="$install_dir"
 mkdir "$install_dir/$app.d"
-ynh_config_add --template="mygateway.conf" --destination="$install_dir/$app.d/mygateway.conf"
+ynh_config_add --template="versitygw.conf" --destination="$install_dir/$app.d/$app.conf"
 
 #=================================================
 # SYSTEM CONFIGURATION
@@ -46,8 +46,6 @@ ynh_config_add_logrotate
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-#ynh_systemctl --service="$app" --action="stop"
-#systemctl reset-failed $app
 ynh_systemctl --service="$app" --action="start"
 
 #=================================================
