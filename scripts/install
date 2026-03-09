@@ -24,10 +24,10 @@ email_smtp_port=587
 # ADD A CONFIGURATION
 #=================================================
 ynh_script_progression "Adding $app's configuration..."
-ynh_setup_source --dest_dir=/etc/
-mkdir /etc/$app.d
-ynh_config_add --template=" mygateway.conf" --destination="/etc/$app.d/mygateway.conf"
 
+ynh_setup_source --dest_dir="$install_dir"
+mkdir "$install_dir/$app.d"
+ynh_config_add --template="mygateway.conf" --destination="$install_dir/$app.d/mygateway.conf"
 
 #=================================================
 # SYSTEM CONFIGURATION
@@ -35,9 +35,9 @@ ynh_config_add --template=" mygateway.conf" --destination="/etc/$app.d/mygateway
 
 ynh_config_add_nginx
 
-#ynh_config_add_systemd --service="$app" 
+ynh_config_add_systemd --service="$app" 
 
-yunohost service add "$app@mygateway" --description="Versity S3 Gateway" --log="/var/log/$app/$app.log"
+yunohost service add "$app" --description="Versity S3 Gateway" --log="/var/log/$app/$app.log"
 
 ynh_config_add_logrotate
 
@@ -48,7 +48,7 @@ ynh_script_progression "Starting $app's systemd service..."
 
 #ynh_systemctl --service="$app" --action="stop"
 #systemctl reset-failed $app
-#ynh_systemctl --service="$app" --action="start"
+ynh_systemctl --service="$app" --action="start"
 
 #=================================================
 # END OF SCRIPT
