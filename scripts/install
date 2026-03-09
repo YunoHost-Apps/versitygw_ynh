@@ -40,7 +40,7 @@ ynh_config_add_systemd --service="$app"
 yunohost service add "$app" --description="Versity S3 Gateway" --log="/var/log/$app/$app.log"
 
 ynh_config_add_logrotate
-
+chmod -R 700 "$data_dir/.iam"
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
