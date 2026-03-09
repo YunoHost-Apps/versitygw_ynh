@@ -45,9 +45,9 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     amd64.url = "https://github.com/versity/versitygw/releases/download/v1.3.1/versitygw_v1.3.1_Linux_x86_64.tar.gz"
-    sha256 = "636f66df4bb618a5e5f771745a4af8fb76e83e4744fe73a3bb77c1f0d3c00c6b"
+    amd64.sha256 = "636f66df4bb618a5e5f771745a4af8fb76e83e4744fe73a3bb77c1f0d3c00c6b"
     arm64.url = "https://github.com/versity/versitygw/releases/download/v1.3.1/versitygw_v1.3.1_Linux_arm64.tar.gz"
-    sha256 = "31d00893a5e11630fe0d416c5550078d7c1afe72249ecc93185b24e01cfecb66"
+    arm64.sha256 = "31d00893a5e11630fe0d416c5550078d7c1afe72249ecc93185b24e01cfecb66"
 
     autoupdate.asset.amd64 = "linux_amd64.tar.gz"
     autoupdate.asset.arm64 = "linux_arm64.tar.gz"
