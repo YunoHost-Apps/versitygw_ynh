@@ -65,6 +65,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.ports]
+    [resources.ports.ui]
 
     [resources.apt]
     [resources.nodejs]
