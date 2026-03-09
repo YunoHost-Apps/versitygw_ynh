@@ -24,7 +24,7 @@ email_smtp_port=587
 # ADD A CONFIGURATION
 #=================================================
 ynh_script_progression "Adding $app's configuration..."
-ynh_setup_source 
+ynh_setup_source --dest-dir=/etc/
 ynh_config_add --template=" mygateway.conf" --destination="/etc/$app.d/mygateway.conf"
 
 
