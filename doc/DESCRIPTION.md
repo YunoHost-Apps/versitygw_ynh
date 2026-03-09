@@ -1,3 +1,7 @@
-Papra is a minimalistic document management and archiving platform. It is designed to be simple to use and accessible to everyone. Papra is a platform for long-term document storage and management, like a digital archive for your documents.
+## The Versity S3 Gateway: a High-Performance S3 Translation Service
+* Turn your local filesystem into an S3 server with a single command!
+* Proxy S3 requests to S3 storage
+* Simple to deploy S3 server with a single command
+* Protocol compatibility in posix allows common access to files via posix or S3
+* Simplified interface for adding new storage system support
 
-Forget about that receipt of that gift you bought for your friend last year, or that warranty for your new phone. With Papra, you can easily store, forget, and retrieve your documents whenever you need them.
