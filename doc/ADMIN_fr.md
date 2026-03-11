@@ -5,3 +5,7 @@
 ## Identifiants de l'utilisateur Admin    
 **Key ID** : `__ADMIN_KEY__`  
 **Secret Key** : `__ADMIN_SECRET__` 
+```
+AWS_ACCESS_KEY_ID=__ADMIN_KEY__  
+AWS_SECRET_ACCESS_KEY=__ADMIN_SECRET__
+``` 
