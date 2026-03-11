@@ -10,7 +10,7 @@ version = "1.3.1~ynh1"
 maintainers = ["otm33GH"]
 
 [upstream]
-license = "Apache-2.0" # you can see the available licenses identifiers list here: https://spdx.org/licenses/
+license = "Apache-2.0"
 website = "https://www.versity.com/products/versitygw/"
 admindoc = "https://github.com/versity/versitygw/wiki"
 code = "https://github.com/versity/versitygw"
