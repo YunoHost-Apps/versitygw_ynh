@@ -10,8 +10,7 @@ version = "1.3.1~ynh1"
 maintainers = ["otm33GH"]
 
 [upstream]
-license = "GPL-3.0-only" # you can see the available licenses identifiers list here: https://spdx.org/licenses/
-website = "https://papra.app/fr/"
+license = "GPL-3.0-only" 
 demo = "https://demo.papra.app/"
 admindoc = "https://docs.papra.app/"
 code = "https://github.com/papra-hq/papra"
