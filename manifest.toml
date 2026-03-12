@@ -22,8 +22,8 @@ helpers_version = "2.1"
 architectures = ["amd64","arm64"]
 multi_instance = false
    
-ldap = "false"
-sso = "false"
+ldap = false
+sso = false
 
 # FIXME: replace with an **estimate** minimum disk and RAM requirements. e.g. 20M, 400M, 1G...
 disk = "50M"
