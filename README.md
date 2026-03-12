@@ -20,7 +20,7 @@ A High-Performance S3 Translation Service.
 
 
 ## Screenshots
-![Screenshot of Versity S3 Gateway](./doc/screenshots/Versity-logo-blue-horizontal.png)
+![Screenshot of Versity S3 Gateway](./doc/screenshots/versitygw.png)
 
 ## 📦 Developer info
 
@@ -39,13 +39,6 @@ sudo yunohost app install https://github.com/YunoHost-Apps/versitygw_ynh/tree/te
 sudo yunohost app upgrade versitygw -u https://github.com/YunoHost-Apps/versitygw_ynh/tree/testing
 ```
 
-You can also switch to the testing branch to update from testing by default (as same as for APT when you chose to use a testing repos) with this command:
-```bash
-sudo yunohost app setting versitygw upgrade_channel -v testing
-```
-
 ### 📚 App packaging documentation
 
 Please see <https://doc.yunohost.org/packaging_apps> for more information.
-
-
