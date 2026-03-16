@@ -48,8 +48,8 @@ ram.runtime = "50M"
     arm64.url = "https://github.com/versity/versitygw/releases/download/v1.3.1/versitygw_v1.3.1_Linux_arm64.tar.gz"
     arm64.sha256 = "31d00893a5e11630fe0d416c5550078d7c1afe72249ecc93185b24e01cfecb66"
 
-    autoupdate.asset.amd64 = "linux_amd64.tar.gz"
-    autoupdate.asset.arm64 = "linux_arm64.tar.gz"
+    autoupdate.asset.amd64 = "^versitygw_v\\d+(\\.\\d+)+_Linux_x86_64\\.tar\\.gz$"
+    autoupdate.asset.arm64 = "^versitygw_v\\d+(\\.\\d+)+_Linux_arm64\\.tar\\.gz$"
     autoupdate.strategy = "latest_github_release" 
 
     [resources.system_user]
