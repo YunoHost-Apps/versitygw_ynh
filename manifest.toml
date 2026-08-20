@@ -25,7 +25,6 @@ multi_instance = false
 ldap = false
 sso = false
 
-# FIXME: replace with an **estimate** minimum disk and RAM requirements. e.g. 20M, 400M, 1G...
 disk = "150M"
 ram.build = "100M"
 ram.runtime = "50M"
