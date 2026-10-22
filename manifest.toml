@@ -5,7 +5,7 @@ id = "versitygw"
 name = "Versity S3 Gateway"
 description.en = "A High-Performance S3 Translation Service."
 description.fr = "Passerelle S3 haute performance." 
-version = "1.9.0~ynh1"
+version = "1.10.0~ynh1"
 
 maintainers = ["otm33GH"]
 
@@ -42,10 +42,10 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    amd64.url = "https://github.com/versity/versitygw/releases/download/v1.9.0/versitygw_v1.9.0_Linux_x86_64.tar.gz"
-    amd64.sha256 = "0c28ccda3452451d7c71a0427f6aa7d0db5cac5e2b98a8e4dd2970967e1aadc1"
-    arm64.url = "https://github.com/versity/versitygw/releases/download/v1.9.0/versitygw_v1.9.0_Linux_arm64.tar.gz"
-    arm64.sha256 = "1ab234dc11d540d861898d391bfda5914eaff78f20d162c3ce7c84337b3d9204"
+    amd64.url = "https://github.com/versity/versitygw/releases/download/v1.10.0/versitygw_v1.10.0_Linux_x86_64.tar.gz"
+    amd64.sha256 = "8f9869752939d4dc9cfe1bddb935a02cc6610e95319a3a9fc2947d2a6ebd2c91"
+    arm64.url = "https://github.com/versity/versitygw/releases/download/v1.10.0/versitygw_v1.10.0_Linux_arm64.tar.gz"
+    arm64.sha256 = "6307b377caee30c1f0fc8950e62ba684e0440a92f8e6a3a06bee1b83a857f03a"
 
     autoupdate.asset.amd64 = "^versitygw_v\\d+(\\.\\d+)+_Linux_x86_64\\.tar\\.gz$"
     autoupdate.asset.arm64 = "^versitygw_v\\d+(\\.\\d+)+_Linux_arm64\\.tar\\.gz$"
